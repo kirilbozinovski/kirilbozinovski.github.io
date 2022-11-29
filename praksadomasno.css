@@ -1,0 +1,67 @@
+div {
+    display: inline-block;
+    width: 1000px;
+    height: 100px;
+}
+body{
+    background-image: linear-gradient(red, yellow, green);
+    font-family: 'Nerko One', cursive;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden ;
+}
+img {
+    border: dotted white 5px;
+}
+.a{
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.a:hover{
+    color: green;
+}
+.b{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+.b:hover{
+    color: rgb(255, 255, 255);
+    background-color: yellow;
+    width: 147px;
+    text-decoration: double;
+    border: 5px;
+    border-radius: 10px;
+}
+#a{
+    background-color: white;
+    height: 120px;
+    width: auto;
+    box-shadow: 20px 10px wheat;
+    text-align: center;
+}
+a:hover{
+    color: green;
+    background: wheat;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+p{
+    color: gray;
+}
+hr {
+    height: 10px !important;
+    background-color: lightblue;
+}
+button{
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
