@@ -65,3 +65,6 @@ button{
     height: auto;
     border-radius: 30px;
 }
+div:hover{
+    border-radius: 20px;
+}
