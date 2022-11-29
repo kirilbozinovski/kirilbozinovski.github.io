@@ -1,0 +1,17 @@
+body {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+div.box {
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    box-shadow: 20px 20px lightblue;
+    align-items: center;
+    border : 2px solid white;
+    border-radius: 10px;
+    
+}
