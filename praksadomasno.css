@@ -13,6 +13,10 @@ body{
 img {
     border: dashed white 5px;
 }
+img:hover{
+    border: 5px dotted black;
+
+}
 .a{
     background-color: black;
     color: white;
