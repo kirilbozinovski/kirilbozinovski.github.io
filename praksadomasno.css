@@ -11,7 +11,7 @@ body{
     overflow-y: hidden ;
 }
 img {
-    border: dotted white 5px;
+    border: dashed white 5px;
 }
 .a{
     background-color: black;
