@@ -125,3 +125,6 @@ body{
 .karticka-2:hover .send {
     border-right: 1px solid black;
 }
+.karticka-1:hover h6 {
+    color: rgb(194, 236, 201);
+}
