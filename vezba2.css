@@ -104,3 +104,24 @@ body{
 .kontent p {
     padding: 10px;
 }
+.karticka-2:hover .futer {
+    background-color: rgb(124, 112, 216);
+}
+.karticka-1:hover .futer {
+    background-color: rgb(84, 214, 108);
+}
+.karticka-1:hover .likes {
+    border-right: 1px solid black;
+
+}
+.karticka-1:hover .send {
+    border-right: 1px solid black;
+}
+.karticka-2:hover .likes {
+    border-right: 1px solid rgb(0, 0, 0);
+
+}
+
+.karticka-2:hover .send {
+    border-right: 1px solid black;
+}
