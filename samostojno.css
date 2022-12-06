@@ -1,0 +1,33 @@
+body{
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(209, 178, 212, 1) 2%, rgba(193, 181, 218, 1) 8%, rgba(171, 184, 225, 1) 15%, rgba(148, 187, 233, 1) 31%, rgba(86, 128, 195, 1) 52%, rgba(51, 95, 174, 1) 66%, rgba(35, 80, 164, 1) 79%, rgba(35, 80, 164, 1) 86%, rgba(35, 80, 164, 1) 92%, rgba(35, 80, 164, 1) 96%, rgba(35, 80, 164, 1) 100%);
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+.a{
+    width: 121.95px;
+    height: 36.83px;
+    backdrop-filter: blur(2px);
+    margin-top: 97.83px;
+    margin-left: 440.75px;
+}
+.b{
+    width: 137px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #34743E;
+    color: white;
+    border: 0px;
+    margin-top: 77.16px;
+    margin-right: 118px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

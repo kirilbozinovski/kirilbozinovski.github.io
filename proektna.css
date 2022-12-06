@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    display: flex;
+}
+div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 43.67px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+img{
+    height: 713px;
+    width: 199px;
+}
+
