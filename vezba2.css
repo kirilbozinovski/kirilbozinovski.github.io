@@ -76,6 +76,7 @@ body{
     background-color: lightgrey;
     padding: 0px;
     margin: 15px;
+    
 }
 
 .karticka-2:hover h6 {
@@ -127,4 +128,33 @@ body{
 }
 .karticka-1:hover h6 {
     color: rgb(194, 236, 201);
+}
+.karticka-1:hover {
+    position: flex;
+    width: 500px;
+    height: 500px;
+    transition: all .15s linear;
+}
+.karticka-1:hover img{
+    position: flex;
+    width: 500px;
+    height: 500px;
+    transition: all .15s linear;
+}
+.karticka-2:hover {
+
+    position: flex;
+    width: 500px;
+    height: 600px;
+    transition: all .15s linear;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.karticka-2:hover img {
+    position: flex;
+    width: 500px;
+    height: 500px;
+    transition: all .15s linear;
 }
