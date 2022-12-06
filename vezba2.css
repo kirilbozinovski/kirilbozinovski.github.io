@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.kontent{
+    text-align: center;
+}
+.del{
+    line-height: 0px;
+}
+.karticka-1 {
+    height: 600px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: lightgrey;
+    padding: 0px;
+}
+.karticka-1:hover, .karticka-2:hover{
+    scale: 1.05;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.kontent h6 {
+    color: blue;
+    border: 0px;
+}
+.kontent h4 {
+    font-size: large;
+}
+.del{
+    line-height: 0px;
+    padding: 0;
+}
+.slika {
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    border-top-left-radius: 16px ;
+    border-top-right-radius: 16px;
+}
+
+.kontent {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.futer {
+    height: 14%;
+    width: 100%;
+    display: flex;
+    background-color: cyan;
+    justify-content: space-between;
+    border-bottom-left-radius: 16px ;
+    border-bottom-right-radius: 16px;
+    font-size: 13px;
+    color: rgb(19, 19, 86);
+}
+.karticka-2 {
+    height: 650px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 15px;
+}
+
+.karticka-2:hover h6 {
+    scale: 1.05;
+    cursor: pointer;
+    color: pink;
+}
+.likes , .send, .coment {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+}
+.likes {
+    border-right: 1px solid white;
+}
+.send {
+    border-right: 1px solid white;
+}
+.likes num,.send num,.coment num {
+    font-weight: 700;
+}
+.kontent p {
+    padding: 10px;
+}

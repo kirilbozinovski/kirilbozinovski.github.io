@@ -12,6 +12,7 @@ body{
 }
 img {
     border: dashed white 5px;
+    border-radius: 50%;
 }
 img:hover{
     border: 5px dotted black;
@@ -72,3 +73,4 @@ button{
 div:hover{
     border-radius: 20px;
 }
+
